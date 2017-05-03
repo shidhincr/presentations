@@ -9,14 +9,21 @@ Be smart and make a node module!
 
 +++
 #### Avoid code repetition
-- <span style="color: #666666">blah, blah<span>
+- <span style="color: #666666">There're lot of code repeated in our repos<span>
+- <span style="color: #666666">Break them into small utilities, with unit tests<span>
+
 +++
 #### More open source activities
-- <span style="color: #666666">blah, blah<span>
+- <span style="color: #666666">Good chance to contribute to open source<span>
+- <span style="color: #666666">NODE community is active<span>
+- <span style="color: #666666">We get development/bug-fixes for free<span>
+- <span style="color: #666666">But, should actively maintain the projects<span>
 
 +++
 #### Be creative and smart
-- <span style="color: #666666">blah, blah<span>
+- <span style="color: #666666">Look in our code -- find repeating patterns<span>
+- <span style="color: #666666">Don't like the other library/module ? Make a better one<span>
+- <span style="color: #666666">Be creative<span>
 
 ---
 
@@ -36,14 +43,15 @@ Be smart and make a node module!
 
 ---
 
-### <span style="color: #e49436; text-transform: none">HOW ?</span>
+### <span style="color: #e49436; text-transform: none">SOLUTION ?</span>
 
 Start with a simple seed/boilerplate template.
 
-+++
-### Meet `npm-module`
-![npm-module](assets/npm-module.png)
-
++++?image=assets/npm-module.png
+<div style="padding: 10px; background-color: #000">
+<h2><span style="color: #e49436">Meet npm-module<span></h2>
+[https://github.com/shidhincr/npm-module](https://github.com/shidhincr/npm-module)
+</div>
 +++
 - Opinionated ( The libraries for build/test/bundle ) are already chosen.
 - Zero configuration
@@ -53,17 +61,31 @@ Start with a simple seed/boilerplate template.
 ---
 ### Let's Start
 
-+++?image=(image for cloning)
-+++?image=(image for make changes)
-+++?image=(image for test)
-+++?image=(image for build)
-+++?image=(image for edit package.json)
-+++?image=(image for http://www.flaticon.com/)
-+++?image=(image for release)
++++?image=assets/clone.png
++++
+### Install: Just run the command `yarn`
+![install](assets/yarn-install.png)
++++?image=assets/edit-changes.png
++++?image=assets/scripts.png
++++?image=assets/test.png
++++
+### Build
+![build](assets/build.png)
++++
+### Build
+![rollup](assets/rollup-config.png)
++++?image=assets/code-package-json.png
++++
+### ICONS
+![build](assets/flat-icon0.png)
+![rollup](assets/flat-icon1.png)
 
 ---
 ### Release and Publish to NPM
-
+Using `np` and `release`
+![build](assets/release.png)
 ---
 
 ## <span style="color: #e49436; text-transform: none">THANKS</span>
+
+### [@shidhincr](https://twitter.com/shidhincr)
